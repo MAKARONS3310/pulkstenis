@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer, World Clock, Clicker Game & Memory Game</title>
+  <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+  <div id="timer">00:00</div>
+  <div id="clocks">
+    <div class="clock">
+      <h2>New York</h2>
+      <div class="time" id="new-york"></div>
+    </div>
+  </div>
+  <div id="clicker">
+    <button onclick="incrementCounter()">Click Me!</button>
+    <p>Click Count: <span id="counter">0</span></p>
+  </div>
+  <div id="memory-game">
+    <h2>Memory Game</h2>
+    <div id="game-board"></div>
+    <button onclick="startMemoryGame()">Start Game</button>
+  </div>
+  <div id="buttons">
+    <button onclick="startTimer()">Start</button>
+    <button onclick="pauseTimer()">Pause</button>
+    <button onclick="resetTimer()">Reset</button>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
